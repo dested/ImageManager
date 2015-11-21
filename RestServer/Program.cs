@@ -9,7 +9,7 @@ namespace RestServer2
     {
         static void Main(string[] args)
         {
-            var uri =new Uri("http://127.0.0.1:3577");
+            var uri =new Uri("http://localhost:3577");
             HostConfiguration hostConfigs = new HostConfiguration();
             hostConfigs.UrlReservations.CreateAutomatically = true;
 

@@ -4,5 +4,5 @@ var module=angular.module('AnaSal.Client',[
 
 
 module.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/main');
 });
